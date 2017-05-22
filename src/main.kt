@@ -5,7 +5,6 @@ fun main(args: Array<String>) {
 
     val john = Person("John")
 
-
     println("Name is ${john.Name}")
 
     john.Name = "John C Makers"
@@ -13,7 +12,7 @@ fun main(args: Array<String>) {
     println("Name is now ${john.Name}")
 
     john.display()
-            // :: means function reference, like Java
+        // :: means function reference, like Java
     john.displayWithLambda(::printName)
 
 }
